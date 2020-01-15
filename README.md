@@ -1,6 +1,4 @@
-# Lambda function to convert Birthday into Age
-
-> Lorem ipsum.
+# Convert a birthday into age information.
 
 ## Usage
 

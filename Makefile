@@ -17,3 +17,13 @@ build: clean
 
 deploy:
 	@ sam deploy
+
+package:
+	@ sam package \
+		--output-template-file package.yaml \
+		--s3-bucket sbstjn-serverless-application-repository
+
+publish:
+	@ sam publish \
+		--template package.yaml \
+		--region eu-central-1

@@ -16,6 +16,26 @@ Resources:
       Runtime: go1.x
       Tracing: Active
 
+Metadata:
+  AWS::ServerlessRepo::Application:
+    Name: birthday-to-age
+    Description: Convert a birthday into age information.
+    Author: sbstjn
+    SpdxLicenseId: MIT
+    LicenseUrl: LICENSE.md
+    ReadmeUrl: README.md
+    Labels:
+      - sbstjn
+      - superluminar
+      - serverless
+      - serverlessdays
+      - workshop
+      - suchfeatures
+      - nocode
+    HomePageUrl: https://github.com/sbstjn/lambda-birthday-to-age
+    SemanticVersion: 0.0.1
+    SourceCodeUrl: https://github.com/sbstjn/lambda-birthday-to-age
+
 Outputs:
   HelloWorldFunction:
     Description: Function ARN
