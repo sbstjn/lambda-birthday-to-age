@@ -1,0 +1,11 @@
+version = 0.1
+
+[default]
+[default.deploy]
+[default.deploy.parameters]
+
+stack_name = "lambda-birthday-to-age"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1l3e2xq6k0bz6"
+s3_prefix = "lambda-birthday-to-age"
+region = "eu-central-1"
+capabilities = "CAPABILITY_IAM"
